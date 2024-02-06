@@ -31,13 +31,14 @@ namespace APICatalogo.Controllers
             {
                 return NotFound("Categorias não encontrada");
             }
-            return categoria
+            return categoria;
         }
 
         [HttpGet("{id:int}", Name = "ObterCategoria")]
         public ActionResult<Categoria> Get(int id)
         {
-            var categoria = _context.Categorias.AsNoTracking().FirstOrDefault(p => p.CategoriaId == id);
+            Categoria? categoria = _context.Categorias.AsNoTracking()
+                                                      .FirstOrDefault(p => p.CategoriaId == id);
 
             if (categoria == null)
             {
