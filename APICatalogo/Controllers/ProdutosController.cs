@@ -1,86 +1,82 @@
-﻿
-using APICatalogo.Context;
-using APICatalogo.Model;
-using Microsoft.AspNetCore.Http;
+﻿using APICatalogo.Context;
+using APICatalogo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace APICatalogo.Controllers
+namespace APICatalogo.Controllers;
+
+[Route("[controller]")]
+[ApiController]
+public class ProdutosController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProdutosController : ControllerBase
+    private readonly AppDbContext _context;
+    public ProdutosController(AppDbContext context)
     {
+        _context = context;
+    }
 
-        private readonly AppDbContext _context;
-
-        public ProdutosController(AppDbContext context)
+   [HttpGet]
+    public async Task<ActionResult<IEnumerable<Produto>>> Get()
+    {
+        var produtos = await _context.Produtos.ToListAsync();
+        if (produtos is null)
         {
-            _context = context;
+            return NotFound();
         }
+        return produtos;
+    }
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Produto>>> Get()
+    [HttpGet("{id}", Name = "ObterProduto")]
+    public async Task<ActionResult<Produto>> Get(int id)
+    {
+        var produto = await _context.Produtos.FirstOrDefaultAsync(p => p.ProdutoId == id);
+        if (produto is null)
         {
-            var produtos = await _context.Produtos.AsNoTracking().ToListAsync();
-            if (produtos is null)
-            {
-                return NotFound("Produtos não encontrados!");
-            }
-            return produtos;
-
+            return NotFound("Produto não encontrado...");
         }
+        return produto;
+    }
 
-        [HttpGet("{id:int}", Name = "ObterProduto")]
-        public async Task<ActionResult<Produto>> GetProduto(int id) {
+    [HttpPost]
+    public ActionResult Post(Produto produto)
+    {
+        if (produto is null)
+            return BadRequest();
 
-            var produto = await _context.Produtos.AsNoTracking().FirstOrDefaultAsync(p=> p.ProdutoId == id);
-            if (produto == null)
-            {
-                return NotFound("Produto não encontrado!");
-            }
-            return produto;
-        }
+        _context.Produtos.Add(produto);
+        _context.SaveChanges();
 
-        [HttpPost]
-        public ActionResult Post(Produto produto) {
-            if (produto is null)
-                return BadRequest();
+        return new CreatedAtRouteResult("ObterProduto",
+            new { id = produto.ProdutoId }, produto);
+    }
 
-            _context.Produtos.Add(produto);
-            _context.SaveChanges();
-
-            return new CreatedAtRouteResult("ObterProduto",
-                new { id = produto.ProdutoId }, produto);
-        }
-
-        [HttpPut ("{id:int}")]
-        public ActionResult Put(int id , Produto produto) {
-        
-            if(id != produto.ProdutoId)
-            {
-                    return BadRequest();
-            }
-            _context.Entry(produto).State = EntityState.Modified;
-            _context.SaveChanges();
-
-            return Ok(produto);
-        }
-
-
-        [HttpDelete ("{id:int}")]
-        public ActionResult Delete(int id)
+    [HttpPut("{id:int}")]
+    public ActionResult Put(int id, Produto produto)
+    {
+        if (id != produto.ProdutoId)
         {
-
-            var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
-            if (produto is null)
-            {
-                return NotFound("Produto não localizado!");
-            }
-            _context.Produtos.Remove(produto);
-            _context.SaveChanges();
-            return Ok(produto);
+            return BadRequest();
         }
 
-    } 
+        _context.Entry(produto).State = EntityState.Modified;
+        _context.SaveChanges();
+
+        return Ok(produto);
+    }
+
+    [HttpDelete("{id:int}")]
+    public ActionResult Delete(int id)
+    {
+        var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
+        //var produto = _context.Produtos.Find(id);
+
+        if (produto is null)
+        {
+            return NotFound("Produto não localizado...");
+        }
+        _context.Produtos.Remove(produto);
+        _context.SaveChanges();
+
+        return Ok(produto);
+    }
 }
