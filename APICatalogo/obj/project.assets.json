@@ -2683,11 +2683,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Source\\Repos\\Lucas-Pavao\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj",
       "projectName": "APICatalogo",
-      "projectPath": "C:\\Users\\lucas\\source\\repos\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
+      "projectPath": "C:\\Users\\lucas\\Source\\Repos\\Lucas-Pavao\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\source\\repos\\APICatalogo\\APICatalogo\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Source\\Repos\\Lucas-Pavao\\catalogo-rest-api\\APICatalogo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
