@@ -1,0 +1,7 @@
+C:\Users\lucas\source\repos\catalogo-rest-api\ApiCatalogoxUnitTests\bin\Debug\net8.0\CoverletSourceRootsMapping_ApiCatalogoxUnitTests
+C:\Users\lucas\source\repos\catalogo-rest-api\ApiCatalogoxUnitTests\obj\Debug\net8.0\ApiCatalogoxUnitTests.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\catalogo-rest-api\ApiCatalogoxUnitTests\obj\Debug\net8.0\ApiCatalogoxUnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\catalogo-rest-api\ApiCatalogoxUnitTests\obj\Debug\net8.0\ApiCatalogoxUnitTests.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\catalogo-rest-api\ApiCatalogoxUnitTests\obj\Debug\net8.0\ApiCatalogoxUnitTests.AssemblyInfo.cs
+C:\Users\lucas\source\repos\catalogo-rest-api\ApiCatalogoxUnitTests\obj\Debug\net8.0\ApiCatalogoxUnitTests.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\catalogo-rest-api\ApiCatalogoxUnitTests\obj\Debug\net8.0\ApiCatalogoxUnitTests.sourcelink.json

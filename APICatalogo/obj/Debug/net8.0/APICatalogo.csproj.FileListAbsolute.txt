@@ -315,3 +315,5 @@ C:\Users\lucas\Source\Repos\catalogo-rest-api\APICatalogo\obj\Debug\net8.0\refin
 C:\Users\lucas\Source\Repos\catalogo-rest-api\APICatalogo\obj\Debug\net8.0\APICatalogo.pdb
 C:\Users\lucas\Source\Repos\catalogo-rest-api\APICatalogo\obj\Debug\net8.0\APICatalogo.genruntimeconfig.cache
 C:\Users\lucas\Source\Repos\catalogo-rest-api\APICatalogo\obj\Debug\net8.0\ref\APICatalogo.dll
+C:\Users\lucas\source\repos\catalogo-rest-api\APICatalogo\bin\Debug\net8.0\X.PagedList.dll
+C:\Users\lucas\source\repos\catalogo-rest-api\APICatalogo\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
