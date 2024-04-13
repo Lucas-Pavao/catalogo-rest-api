@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4l9EOneh5oLl2Ph8gDaLmw9KGdIUjRTRyWH1RS7etBVkmrTc7ZbPyy8y/V00Ha8W90TPFFkZS6v4KdBk049EBQ==",
+  "dgSpecHash": "JRRoFkD1SWnrpxRngmZrUnyAf8pepK0z8jk3iYpJdM2/V1bsf6CiOKKawYgIiEIQP9A6Mvr6uKI5Lk0SoyfZKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -51,7 +51,9 @@
     "C:\\Users\\lucas\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\lucas\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+    "C:\\Users\\lucas\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\x.pagedlist\\9.1.2\\x.pagedlist.9.1.2.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\x.pagedlist.mvc.core\\9.1.2\\x.pagedlist.mvc.core.9.1.2.nupkg.sha512"
   ],
   "logs": []
 }

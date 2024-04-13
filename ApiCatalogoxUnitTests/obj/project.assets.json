@@ -2026,6 +2026,30 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "X.PagedList/9.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/X.PagedList.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/X.PagedList.dll": {}
+        }
+      },
+      "X.PagedList.Mvc.Core/9.1.2": {
+        "type": "package",
+        "dependencies": {
+          "X.PagedList": "9.1.2"
+        },
+        "compile": {
+          "lib/net8.0/X.PagedList.Mvc.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/X.PagedList.Mvc.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "xunit/2.4.2": {
         "type": "package",
         "dependencies": {
@@ -2134,7 +2158,8 @@
           "AutoMapper": "13.0.1",
           "Newtonsoft.Json": "13.0.3",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.0-beta.2",
-          "Swashbuckle.AspNetCore": "6.4.0"
+          "Swashbuckle.AspNetCore": "6.4.0",
+          "X.PagedList.Mvc.Core": "9.1.2"
         },
         "compile": {
           "bin/placeholder/APICatalogo.dll": {}
@@ -6666,6 +6691,38 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "X.PagedList/9.1.2": {
+      "sha512": "qePK/lt+Y8PeQM9E/DkWY/AIyxDVEMX0XFCU5CfLP1+Y9SUThFyaY8/QgldOg9uOJLvse1i3oAQDJOrhb3usdw==",
+      "type": "package",
+      "path": "x.pagedlist/9.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/X.PagedList.dll",
+        "lib/net8.0/X.PagedList.dll",
+        "lib/netstandard2.0/X.PagedList.dll",
+        "lib/netstandard2.1/X.PagedList.dll",
+        "x.pagedlist.9.1.2.nupkg.sha512",
+        "x.pagedlist.nuspec"
+      ]
+    },
+    "X.PagedList.Mvc.Core/9.1.2": {
+      "sha512": "+g8fJgXXVhl17BzVv8bGAkWooul23REeGNIJ4jUlA1Iqbw8Yq0OFMx/mGvjjEhIBNwDrjdhJKXGt7N7jejZWcQ==",
+      "type": "package",
+      "path": "x.pagedlist.mvc.core/9.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/X.PagedList.Mvc.Core.dll",
+        "lib/net8.0/X.PagedList.Mvc.Core.dll",
+        "x.pagedlist.mvc.core.9.1.2.nupkg.sha512",
+        "x.pagedlist.mvc.core.nuspec"
+      ]
+    },
     "xunit/2.4.2": {
       "sha512": "6Mj73Ont3zj2CJuoykVJfE0ZmRwn7C+pTuRP8c4bnaaTFjwNG6tGe0prJ1yIbMe9AHrpDys63ctWacSsFJWK/w==",
       "type": "package",
@@ -6833,11 +6890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
       "projectName": "ApiCatalogoxUnitTests",
-      "projectPath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
+      "projectPath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6854,8 +6911,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj": {
-              "projectPath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj"
+            "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj": {
+              "projectPath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj"
             }
           }
         }

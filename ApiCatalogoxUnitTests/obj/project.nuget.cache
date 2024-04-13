@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "soUjEJAPhznfN3XvPrGDU7Pzk3nAMxKw71cu8KCCsDKYyh2tK3UbynflXG9i5yehB11I7d7XKmiHgluAG2D2yw==",
+  "dgSpecHash": "pH1ZNLkTj1/MyBiWRqaI4BuECG0U4JysrfPWBBdajxdzbEZTiPpF4CFYhedp6ruKEDj4ZfqNl4AgmgnEOa/SAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
@@ -110,6 +110,8 @@
     "C:\\Users\\lucas\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\x.pagedlist\\9.1.2\\x.pagedlist.9.1.2.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\x.pagedlist.mvc.core\\9.1.2\\x.pagedlist.mvc.core.9.1.2.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\xunit\\2.4.2\\xunit.2.4.2.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\xunit.analyzers\\1.0.0\\xunit.analyzers.1.0.0.nupkg.sha512",

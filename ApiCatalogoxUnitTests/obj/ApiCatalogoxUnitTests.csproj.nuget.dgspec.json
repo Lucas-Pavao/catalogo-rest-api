@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj": {}
+    "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj": {
+    "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
         "projectName": "ApiCatalogoxUnitTests",
-        "projectPath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
+        "projectPath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj": {
-                "projectPath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj"
+              "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj": {
+                "projectPath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj": {
+    "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj",
         "projectName": "APICatalogo",
-        "projectPath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj",
+        "projectPath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\source\\repos\\catalogo-rest-api\\APICatalogo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,6 +146,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[9.1.2, )"
             }
           },
           "imports": [

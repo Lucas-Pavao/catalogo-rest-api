@@ -5,7 +5,7 @@
         IProdutoRepository produtoRepository { get; }
         ICategoriaRepository categoriaRepository { get; }
 
-        void Commit ();
+        Task CommitAsync ();
 
     }
 }
