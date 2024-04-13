@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.0-beta.2, )"

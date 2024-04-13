@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jzNDoBavUKBic8KrFQtlvzTGyQV2wiZbog4FIcVs7TLIHvVXr0kFVokg4YROqElLmaY5hCg7DDB0UgY4qzs8Ng==",
+  "dgSpecHash": "soUjEJAPhznfN3XvPrGDU7Pzk3nAMxKw71cu8KCCsDKYyh2tK3UbynflXG9i5yehB11I7d7XKmiHgluAG2D2yw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\ApiCatalogoxUnitTests\\ApiCatalogoxUnitTests.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\mysqlconnector\\2.3.1\\mysqlconnector.2.3.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\lucas\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.0-beta.2\\pomelo.entityframeworkcore.mysql.8.0.0-beta.2.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

@@ -2,8 +2,11 @@
 using APICatalogo.DTOs.Mappings;
 using APICatalogo.Interfaces;
 using APICatalogo.Models;
+using APICatalogo.Pagination;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Security.Cryptography.Xml;
 
 namespace APICatalogo.Controllers;
 
@@ -19,6 +22,45 @@ public class ProdutosController : ControllerBase
     {
         _uof = uof;
         _mapper = mapper;
+    }
+
+    [HttpGet("pagination")]
+    public ActionResult<IEnumerable<ProdutoDTO>> Get([FromQuery] ProdutosParameters produtosParameters) {
+        var produtos = _uof.produtoRepository.GetProdutos(produtosParameters);
+        var metaData = new { 
+            produtos.TotalCount,
+            produtos.PageSize,
+            produtos.CurrentPage,
+            produtos.TotalPages,
+            produtos.HasNext,
+            produtos.HasPrevious
+        };
+        
+        Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metaData));
+
+        var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+        return Ok(produtosDto);
+
+    }
+
+    [HttpGet("filter/valor/pagination")]
+    public ActionResult<IEnumerable<ProdutoDTO>> GetProdutosFilterValor([FromQuery] ProdutoFiltroValor produtoFiltroValor) {
+        var produtos = _uof.produtoRepository.GetProdutosFiltroValor(produtoFiltroValor);
+        var metaData = new
+        {
+            produtos.TotalCount,
+            produtos.PageSize,
+            produtos.CurrentPage,
+            produtos.TotalPages,
+            produtos.HasNext,
+            produtos.HasPrevious
+        };
+
+        Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metaData));
+
+        var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+        return Ok(produtosDto);
+
     }
 
     [HttpGet("produtos/{id}")]
