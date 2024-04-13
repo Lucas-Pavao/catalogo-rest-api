@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\APICatalogo",
-    "\\APICatalogo\\Controllers",
-    "\\APICatalogo\\Logging"
+    ""
   ],
-  "SelectedNode": "\\APICatalogo\\Program.cs",
+  "SelectedNode": "\\APICatalogo.sln",
   "PreviewInSolutionExplorer": false
 }
