@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HL0D96QQSMhSMIr6birGjd35j9/QWDdpameBjrM8mtlREBKEZOw49T/vdTmAH1logVHChiFE9TxNgYbbvfsOgw==",
+  "dgSpecHash": "z77FrDOdrGWDlRa2ey9+H9ZKN4Y2P8qvLfTNDWh57W5RxX6FHksogJAevKrIKJNYjzSCMqGvDNCXj0uTg7u85w==",
   "success": true,
   "projectFilePath": "C:\\Users\\lucas\\Source\\Repos\\catalogo-rest-api\\APICatalogo\\APICatalogo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
