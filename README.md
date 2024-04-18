@@ -1,5 +1,3 @@
-Claro, aqui está a versão atualizada do seu arquivo `README.md`:
-
 # CatalagoApi - REST API em .NET
 
 ## Descrição
@@ -32,7 +30,8 @@ Além das tecnologias e práticas já mencionadas, o projeto tem planos para adi
 - [ ] Melhorias na documentação da API para facilitar o uso e entendimento por parte dos desenvolvedores.
 - [ ] Implementação de testes automatizados para garantir a qualidade e a robustez do código.
 - [ ] Exploração de outras tecnologias e padrões de projeto que possam agregar valor ao projeto e à experiência do usuário.
-
+      
+## Como Testar:
 
 ### Requisitos
 
